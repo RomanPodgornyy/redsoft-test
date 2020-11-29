@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import "babel-polyfill";
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+import { createApp } from "vue";
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+createApp(App).mount("#app");
