@@ -126,4 +126,40 @@ export default {
         margin-right: 0;
     }
 }
+@media (min-width: 921px) and (max-width: 1199px) {
+    .card {
+        margin-bottom: 20px;   
+        margin-right: 20px;
+        width: calc((100% / 3) - 20px);
+        &__img {
+            margin: 20px auto 0;
+        }
+        &:nth-child(3n) {
+            margin-right: 0;
+        }
+    }
+}
+@media (max-width: 920px) {
+    .card {
+        margin-bottom: 20px;   
+        margin-right: 20px;
+        width: calc(50% - 10px);
+        &__img {
+            margin: 20px auto 0;
+        }
+        &:nth-child(2n) {
+            margin-right: 0;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .card {
+        margin-bottom: 20px;   
+        margin-right: 0;
+        width: 100%;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
 </style>

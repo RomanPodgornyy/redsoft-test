@@ -87,4 +87,24 @@ export default {
     justify-content: flex-start;
     flex-wrap: wrap;;
 }
+@media (max-width: 992px) {
+    .catalog {
+        padding: 20px 0;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 768px) {
+    .catalog {
+        padding: 20px 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 600px) {
+    .catalog {
+        padding: 20px 0;
+        flex-wrap: wrap;
+    }
+}
 </style>

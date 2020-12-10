@@ -30,4 +30,24 @@ export default {
         align-items: center;
     }
 }
+@media (max-width: 1199px) {
+    .header {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .header {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .header {
+        display: none;
+    }
+}
 </style>

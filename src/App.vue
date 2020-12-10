@@ -47,4 +47,35 @@ body {
     padding: 0 20px;
     max-width: 1256px;
 }
+@media (max-width: 1199px) {
+    .container {
+        max-width: 992px;
+    }
+    .main-title {
+        text-align: center;
+        margin: 0 0 10px;
+        padding-top: 20px;
+    }
+}
+@media (max-width: 920px) {
+    .container {
+        max-width: 630px;
+    }
+    .main-title {
+        text-align: center;
+        margin: 0 0 10px;
+        padding-top: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        max-width: 375px;
+    }
+    .main-title {
+        text-align: left;
+        margin: 0 0 10px;
+        font-size: 17px;
+        padding-top: 20px;
+    }
+}
 </style>

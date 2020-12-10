@@ -30,4 +30,24 @@ export default {
         align-items: center;
     }
 }
+@media (max-width: 1199px) {
+    .footer {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .footer {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .footer {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .footer {
+        display: none;
+    }
+}
 </style>
